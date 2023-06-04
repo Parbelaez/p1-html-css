@@ -90,6 +90,10 @@ footer {
     background-color: dimgray;
 }
 
+.social-networks {
+    text-align: center;
+}
+
 /* one row instead of column of the list of icons */
 .social-networks li {
     display: inline;
