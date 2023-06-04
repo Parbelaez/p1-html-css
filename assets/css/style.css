@@ -24,6 +24,9 @@ body {
 header {
     height: 10%;
     background-color: dimgray;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .header-text {
@@ -32,6 +35,9 @@ header {
 
 #bulb {
     font-size: 300%;
+    float: left;
+    width: 90px;
+    text-align: center;
 }
 
 h1 {
@@ -39,7 +45,6 @@ h1 {
     letter-spacing: 4px;
     color: white;
     margin-left: 30px;
-    margin-top: 20px;
 }
 
 h3 {
@@ -50,12 +55,22 @@ h3 {
     margin-left: 30px;
 }
 
-h4 {
+h5 {
     font-weight: 200;
     letter-spacing: 4px;
     color: white;
-    margin-right: 30px;
     text-underline-offset: 4px;
+}
+
+#logo {
+    float: left;
+    width: 50%;
+}
+
+#languages {
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
 }
 
 /* main */
