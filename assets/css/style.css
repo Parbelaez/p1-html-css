@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: grey;
+    font-family: Poppins, sans-serif;
+}
+
+.no-decoration-link {
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+/* header */
+
+header {
+    height: 10%;
+    background-color: dimgray;
+}
+
+.header-text {
+    color: white;
+}
+
+#bulb {
+    font-size: 300%;
+}
+
+h1 {
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 4px;
+    color: white;
+    margin-left: 30px;
+}
+
+h4 {
+    font-weight: 200;
+    letter-spacing: 4px;
+    color: white;
+    margin-right: 30px;
+    text-underline-offset: 4px;
+}
+
+/* main */
+
+main {
+    height: 80%;
+}
+
+.hobbies {
+    color: white;
+}
+
+/* footer */
+
+footer {
+    height: 10%;
+    background-color: dimgray;
+}
+
+/* one row instead of column of the list of icons */
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 0%;
+    padding: 2% 10% 2% 10%;
+    color: #292929;
+}
