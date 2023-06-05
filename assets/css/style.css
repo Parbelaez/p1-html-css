@@ -81,13 +81,14 @@ body {
 
 .hobbies-flex {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 1.5rem;
     width: 80%;
     padding: 5%;
     margin: 0 auto;
-    /* border: 10px solid firebrick; */
+    height: auto;
+    justify-content: space-between;
 }
 
 .tile {
@@ -97,11 +98,16 @@ body {
     grid-template-rows: 1fr 1fr;
     gap: 1rem;
     justify-items: stretch;
-    border-radius: 3%;
     box-sizing: border-box;
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 300px;
+    flex-basis: fit-content;
+}
+
+.tile-anchor {
+    display: flex;
+    border-radius: 3%;
 }
 
 .hobby-icon {
@@ -109,12 +115,14 @@ body {
     place-self: center;
     grid-column-start: 1;
     grid-column-end: 1;
+    margin-left: 30px;
 }
 
 .hobby-box {
     grid-column-start: 2;
     grid-column-end: 5;
     align-self: center;
+    margin-right: 30px;
 }
 
 .description {
@@ -126,34 +134,41 @@ body {
 
 #engineering {
     order: 1;
-    flex-grow: 2;
-    width: 700px;
     background-color: darkolivegreen;
+    flex-basis: 450px;
+    flex-wrap: wrap;
 }
 
 #writing {
-    order: 3;
-    flex-grow: 2;
+    order: 2;
     background-color: darkgrey;
+    flex-basis: 700px;
+    flex-wrap: wrap;
 }
 
 #film {
-    order: 2;
-    flex-grow: 1;
+    order: 3;
     background-color: aliceblue;
+    flex-basis: 500px;
+    flex-wrap: wrap;
+}
+
+#film-article {
     color: dimgray;
 }
 
 #music {
     order: 4;
-    flex-grow: 1;
     background-color: darkslategray;
+    flex-basis: 300px;
+    flex-wrap: wrap;
 }
 
 #photography {
     order: 5;
-    flex-grow: 1;
     background-color: darkslateblue;
+    flex-basis: 300px;
+    flex-wrap: wrap;
 }
 
 /* footer */
@@ -177,4 +192,10 @@ footer {
     margin: 0%;
     padding: 2% 10% 2% 10%;
     color: #292929;
+}
+
+@media (min-width: 800px) {
+    .hobbies-flex {
+        flex-direction: row;
+    }
 }
