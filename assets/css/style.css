@@ -79,8 +79,35 @@ main {
     height: 80%;
 }
 
-.hobbies {
+.tile {
+    display: grid;
     color: white;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    justify-items: stretch;
+    border-radius: 1%;
+    background-color: darkolivegreen;
+}
+
+.hobby-icon {
+    font-size: 400%;
+    place-self: center;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.hobby-box {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    align-self: center;
+}
+
+.description {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    margin: auto 30px;
 }
 
 /* footer */
