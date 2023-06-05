@@ -75,7 +75,7 @@ h5 {
 
 /* main */
 
-main {
+body {
     background-color: lightgray;
 }
 
@@ -84,7 +84,10 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1.5rem;
-    /* height: 300px; */
+    width: 80%;
+    padding: 5%;
+    margin: 0 auto;
+    /* border: 10px solid firebrick; */
 }
 
 .tile {
@@ -94,9 +97,11 @@ main {
     grid-template-rows: 1fr 1fr;
     gap: 1rem;
     justify-items: stretch;
-    border-radius: 1%;
-    background-color: darkolivegreen;
+    border-radius: 3%;
     box-sizing: border-box;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 300px;
 }
 
 .hobby-icon {
@@ -123,26 +128,32 @@ main {
     order: 1;
     flex-grow: 2;
     width: 700px;
+    background-color: darkolivegreen;
 }
 
 #writing {
     order: 3;
     flex-grow: 2;
+    background-color: darkgrey;
 }
 
 #film {
     order: 2;
     flex-grow: 1;
+    background-color: aliceblue;
+    color: dimgray;
 }
 
 #music {
     order: 4;
     flex-grow: 1;
+    background-color: darkslategray;
 }
 
 #photography {
     order: 5;
     flex-grow: 1;
+    background-color: darkslateblue;
 }
 
 /* footer */
