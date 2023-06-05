@@ -87,7 +87,7 @@ body {
     width: 80%;
     padding: 5%;
     margin: 0 auto;
-    height: auto;
+    min-height: 100vh;
     justify-content: space-between;
 }
 
@@ -101,8 +101,8 @@ body {
     box-sizing: border-box;
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 300px;
     flex-basis: fit-content;
+    height: min-content;
 }
 
 .tile-anchor {
@@ -142,7 +142,7 @@ body {
 #writing {
     order: 2;
     background-color: darkgrey;
-    flex-basis: 700px;
+    flex-basis: 680px;
     flex-wrap: wrap;
 }
 
