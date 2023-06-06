@@ -199,3 +199,23 @@ footer {
         flex-direction: row;
     }
 }
+
+/* photography */
+
+.pics {
+    max-width: 20%;
+    max-height: 25%;
+
+}
+
+.pics-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2% 5%;
+    height: auto;
+    align-items: center;
+    gap: 1%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
