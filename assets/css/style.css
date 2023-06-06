@@ -235,11 +235,11 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 80%;
+    width: 100%;
     gap: 1.5%;
     justify-content: space-between;
     align-items: center;
-    padding: 2% 5%;
+    padding: 2% 0%;
     margin: 0 auto;
 }
 
@@ -280,4 +280,28 @@ footer {
 #spotify-loader {
     display: contents;
     flex-basis: 50%;
+}
+
+/* engineering */
+/* pop-up image test taken from https: //codepen.io/wall-e/pen/zvvgBe */
+
+#img-wrapper {
+    position: relative;
+}
+
+.thumb span {
+    position: absolute;
+    visibility: hidden;
+}
+
+.thumb:hover,
+.thumb:hover span {
+    visibility: visible;
+    top: relative;
+    left: relative;
+    z-index: 1;
+}
+
+.thumb img {
+    width: 350px;
 }
