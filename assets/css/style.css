@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;1,100&display=swap'); */
 
 * {
     margin: 0;
@@ -200,6 +201,13 @@ footer {
     }
 }
 
+/* general */
+
+.hobby-body {
+    margin: 5%;
+    height: 100%;
+}
+
 /* photography */
 
 .pics {
@@ -218,4 +226,58 @@ footer {
     gap: 1%;
     margin: 0 auto;
     justify-content: space-between;
+}
+
+
+/* film */
+
+.youtube-videos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 1.5%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+    margin: 0 auto;
+}
+
+.youtube-videos iframe {
+    width: auto;
+}
+
+/* music */
+
+#music-box-1>img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 10px;
+}
+
+#albums {
+    display: flex;
+    gap: 20px;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+#albums-paragraphs {
+    flex-basis: 70%;
+}
+
+#albums-paragraphs>a {
+    font-size: x-small;
+    font-style: italic;
+}
+
+#spotify-loader>iframe {
+    width: 100%;
+    justify-content: center;
+}
+
+#spotify-loader {
+    display: contents;
+    flex-basis: 50%;
 }
