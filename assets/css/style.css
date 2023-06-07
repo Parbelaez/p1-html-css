@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: grey;
+    background-color: lightgrey;
     font-family: Poppins, sans-serif;
 }
 
@@ -23,7 +23,7 @@ body {
 /* header */
 
 header {
-    height: 10%;
+    height: 8.5vh;
     background-color: dimgray;
     overflow: hidden;
     padding-top: 20px;
@@ -76,19 +76,26 @@ h5 {
 
 /* main */
 
-body {
-    background-color: lightgray;
+main {
+    height: 77.5vh;
 }
+
+#main-photography {
+    height: auto;
+}
+
+/* index styling */
 
 .hobbies-flex {
     display: flex;
+    height: 90%;
+    box-sizing: border-box;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 1.5%;
     width: 80%;
-    padding: 5%;
+    padding: 5% 2%;
     margin: 0 auto;
-    min-height: 100vh;
     justify-content: space-between;
 }
 
@@ -136,21 +143,25 @@ body {
 #engineering {
     order: 1;
     background-color: darkolivegreen;
-    flex-basis: 450px;
+    height: 40%;
+    flex-basis: 40%;
     flex-wrap: wrap;
 }
 
 #writing {
     order: 2;
     background-color: darkgrey;
-    flex-basis: 680px;
+    height: 45%;
+    flex-basis: 55%;
     flex-wrap: wrap;
 }
 
 #film {
+    align-self: center;
     order: 3;
     background-color: aliceblue;
-    flex-basis: 500px;
+    height: 40%;
+    flex-basis: 37%;
     flex-wrap: wrap;
 }
 
@@ -159,23 +170,27 @@ body {
 }
 
 #music {
+    align-self: center;
     order: 4;
     background-color: darkslategray;
-    flex-basis: 300px;
+    height: 45;
+    flex-basis: 33%;
     flex-wrap: wrap;
 }
 
 #photography {
+    align-self: center;
     order: 5;
     background-color: darkslateblue;
-    flex-basis: 300px;
+    height: 40%;
+    flex-basis: 26%;
     flex-wrap: wrap;
 }
 
 /* footer */
 
 footer {
-    height: 10%;
+    height: 10vh;
     background-color: dimgray;
 }
 
@@ -205,7 +220,52 @@ footer {
 
 .hobby-body {
     margin: 5%;
-    height: 100%;
+    /* height: 100%; */
+}
+
+/* engineering */
+/* pop-up image test taken from https: //codepen.io/wall-e/pen/zvvgBe */
+
+#engineering-page {
+    /* background-image: url(/assets/images/engineering_osc.jpeg);
+    background-repeat: no-repeat; */
+    height: 77.5vh;
+}
+
+#engineering-article {
+    background-image: url(/assets/images/engineering_osc.jpeg);
+    background-color: azure;
+    width: auto;
+    height: 90%;
+}
+
+#engineering-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    margin: 2% auto;
+    padding: 2%;
+    position: relative;
+}
+
+#img-wrapper {
+    position: relative;
+}
+
+.thumb span {
+    position: absolute;
+    visibility: hidden;
+}
+
+.thumb:hover,
+.thumb:hover span {
+    visibility: visible;
+    top: relative;
+    left: relative;
+    z-index: 1;
+}
+
+.thumb img {
+    width: 350px;
 }
 
 /* photography */
@@ -280,28 +340,4 @@ footer {
 #spotify-loader {
     display: contents;
     flex-basis: 50%;
-}
-
-/* engineering */
-/* pop-up image test taken from https: //codepen.io/wall-e/pen/zvvgBe */
-
-#img-wrapper {
-    position: relative;
-}
-
-.thumb span {
-    position: absolute;
-    visibility: hidden;
-}
-
-.thumb:hover,
-.thumb:hover span {
-    visibility: visible;
-    top: relative;
-    left: relative;
-    z-index: 1;
-}
-
-.thumb img {
-    width: 350px;
 }
