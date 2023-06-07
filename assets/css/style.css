@@ -223,9 +223,8 @@ footer {
 /* pop-up image test taken from https: //codepen.io/wall-e/pen/zvvgBe */
 
 #engineering-page {
-    /* background-image: url(/assets/images/engineering_osc.jpeg);
-    background-repeat: no-repeat; */
     height: 77.5vh;
+    margin: auto 5%;
 }
 
 #engineering-article {
@@ -233,6 +232,10 @@ footer {
     background-color: azure;
     width: auto;
     height: 90%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #engineering-text {
@@ -240,7 +243,12 @@ footer {
     width: 80%;
     margin: 2% auto;
     padding: 2%;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 90%;
+    overflow: scroll;
 }
 
 #img-wrapper {
