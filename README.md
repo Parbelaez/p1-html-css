@@ -1,39 +1,55 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+Welcome to my portfolio,
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+It is difficult for me to correctly show all my capabilities in a single CV, therefore, I decided to create a portfolio with all my working experience and hobbies with which I can make a living, or could be useful for the visitirs of the webpage interests.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
 
-## Codeanywhere Reminders
+![The portfolio shown on a range of devices](assets/images/bullybookclubwebsite.png)
+[View My Portfolio on Github Pages](https://parbelaez.github.io/p1-html-css/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+![GitHub last commit](https://img.shields.io/github/last-commit/parbelaez/p1-html-css?color=red)
+![GitHub contributors](https://img.shields.io/github/contributors/parbelaez/p1-html-css?color=orange)
+![GitHub language count](https://img.shields.io/github/languages/count/parbelaez/p1-html-css?color=yellow)
+![GitHub top language](https://img.shields.io/github/languages/top/parbelaez/p1-html-css?color=green)
+![W3C Validation](https://img.shields.io/w3c-validation/html?color=blueviolet&targetUrl=https%3A%2F%2Fkera-cudmore.github.io%2FBully-Book-Club)
 
-`python3 -m http.server`
+## Concept for the UI / UX
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+As the portfolio is really eclectic, it should be as clear and simple as possible.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+The logo was inspired by an AI generated one, from [LOOKA](https://looka.com/), but created totally manual using Google fonts and [Fontawesome](https://fontawesome.com/) icons
 
-`http_server`
+The color scheme is based on differnt shades of grey, with the exception of the tiles, that were thought as pastel, so their inherent opacity match the seriousness of the header and the footer.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Fonts
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Google fonts was the source of the typography:
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+[Poppins](https://github.com/itfoundry/poppins): is a geometric sans serif typeface developed by Indian Type Foundry and Jonny Pinhorn.
 
-To log into the Heroku toolbelt CLI:
+### Icons and images
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Icons were used directly from [Fontawesome](https://fontawesome.com/).
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Images were obatained from my personal archive and [Pexels](https://www.pexels.com/)
 
----
 
-Happy coding!
+
+## Content Pages
+
+### index.html -landing page-
+
+I chose to use a tiling system in the index to be similar to a mobile app, with an icon, title, catch phrase, and a brief description.
+
+The footer is composed as well of icons of my normally used social networks the could help the user knowing more about my work.
+
+### Engineering
+
+This one was used to practice the usage of the background image, and the hover displaying and image on the word: probe
+
+## Used Technologies
+
+To apply the available technologies, the header and the footer where created using float, each tile was created using grid, and the main with flex. This can help also in copping with pre-automatization of the responsiveness.
+
+
