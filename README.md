@@ -6,6 +6,7 @@ It is difficult for me to correctly show all my capabilities in a single CV, the
 
 
 ![The portfolio shown on a range of devices](assets/images/bullybookclubwebsite.png)
+
 [View My Portfolio on Github Pages](https://parbelaez.github.io/p1-html-css/)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/parbelaez/p1-html-css?color=red)
@@ -34,7 +35,7 @@ Icons were used directly from [Fontawesome](https://fontawesome.com/).
 
 Images were obatained from my personal archive and [Pexels](https://www.pexels.com/)
 
-
+---
 
 ## Content Pages
 
@@ -46,10 +47,74 @@ The footer is composed as well of icons of my normally used social networks the 
 
 ### Engineering
 
-This one was used to practice the usage of the background image, and the hover displaying and image on the word: probe
+This one was used to practice the usage of the background image, and the hover displaying and image on the word: probe.
 
-## Used Technologies
+![Before the hover](assets/images/no_hover.png)
 
-To apply the available technologies, the header and the footer where created using float, each tile was created using grid, and the main with flex. This can help also in copping with pre-automatization of the responsiveness.
+![Hovering](assets/images/hovering.png)
+
+#### Used Technologies
+
+All the previous, plus some snippet from [Codepen](https://codepen.io/wall-e/pen/zvvgBe).
+
+### Writing
+
+This is an only text webpage. It is not meant to have more information than that until the book is published or the scripts are ready.
+
+### Film
+
+For this page, YouTube iframes were used, so the visitor can check part of my multimedia work.
+
+### Music
+
+For this page, Spotify iframes were used, along with a copyrighted photo with its correspondent mention.
+Some audio clips can be inserted in the future, as the work on the album progresses.
+
+### Photography
+
+A set of personal photos. Some of them are not part of my Instagram acount.
+Flexbox was used to create the matrix.
 
 
+- - -
+
+## Deployment & Local Development
+
+### Deployment
+
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, p1-html-css.
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+### Development
+
+All development was done in [Code Anywhere](https://app.codeanywhere.com/).
+
+### Local Development
+
+No local development was carried out.
+
+#### How to Fork
+
+To fork the p1-html-css repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, parbelaez/p1-html-css.
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the p1-html-css repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, parbelaez/p1-html-css.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+- - -
