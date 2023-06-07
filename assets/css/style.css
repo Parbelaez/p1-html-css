@@ -295,8 +295,15 @@ footer {
 
 /* writing */
 
-#writinging-page {
-    height: 63.5vh;
+#writing-page {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
 }
 
 /* film */
@@ -401,11 +408,11 @@ footer {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 80%;
+        width: 70%;
         gap: 1.5%;
         justify-content: space-between;
         align-items: center;
-        padding: 2% 0%;
+        padding: 2% 2%;
         margin: 0 auto;
     }
 
@@ -495,10 +502,3 @@ footer {
         height: 84vh;
     }
 }
-
-
-
-
-/* position: fixed;
-bottom: 0;
-width: 100vw; */
