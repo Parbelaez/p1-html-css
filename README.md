@@ -11,7 +11,7 @@ It is difficult for me to correctly show all my capabilities in a single CV, the
 ![GitHub contributors](https://img.shields.io/github/contributors/parbelaez/p1-html-css?color=orange)
 ![GitHub language count](https://img.shields.io/github/languages/count/parbelaez/p1-html-css?color=yellow)
 ![GitHub top language](https://img.shields.io/github/languages/top/parbelaez/p1-html-css?color=green)
-![W3C Validation](https://img.shields.io/w3c-validation/html?color=blueviolet&targetUrl=https%3A%2F%2Fkera-cudmore.github.io%2FBully-Book-Club)
+![W3C Validation](https://img.shields.io/w3c-validation/html?color=blueviolet&targetUrl=https://parbelaez.github.io/p1-html-css/)
 
 ## Concept for the UI / UX
 
