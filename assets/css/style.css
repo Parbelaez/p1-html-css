@@ -280,26 +280,6 @@ footer {
     width: 350px;
 }
 
-/* photography */
-
-.pics {
-    max-width: 20%;
-    max-height: 25%;
-
-}
-
-.pics-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 2% 5%;
-    height: auto;
-    align-items: center;
-    gap: 1%;
-    margin: 0 auto;
-    justify-content: space-between;
-}
-
 /* writing */
 
 #writing-page {
@@ -314,7 +294,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    gap: 1.5%;
+    gap: 10px;
     justify-content: space-between;
     align-items: center;
     padding: 2% 0%;
@@ -328,8 +308,8 @@ footer {
 /* music */
 
 #music-box-1>img {
-    max-width: 300px;
-    max-height: 300px;
+    width: 20%;
+    min-width: 176px;
     float: left;
     padding: 10px;
 }
@@ -358,6 +338,26 @@ footer {
 #spotify-loader {
     display: contents;
     flex-basis: 50%;
+}
+
+/* photography */
+
+.pics {
+    max-width: 20%;
+    max-height: 25%;
+
+}
+
+.pics-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2% 5%;
+    height: auto;
+    align-items: center;
+    gap: 1%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 @media (max-width: 1400px) {
@@ -403,15 +403,12 @@ footer {
         flex-wrap: wrap;
     }
 
-
-
     .youtube-videos {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         width: 70%;
-        gap: 1.5%;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         padding: 2% 2%;
         margin: 0 auto;
