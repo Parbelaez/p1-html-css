@@ -75,6 +75,10 @@ h5 {
     margin-right: 50px;
 }
 
+#back-button {
+    margin-top: 10%;
+}
+
 /* main */
 
 main {
@@ -474,12 +478,32 @@ footer {
         flex-basis: 100%;
     }
 
+    /* #languages {
+        margin-right: 1%;
+        font-size: small;
+    }
+
+    #languages h5 {
+        letter-spacing: 1px;
+    } */
 }
 
 @media (min-width: 766px) {
 
     #engineering-text {
         overflow-y: hidden;
+    }
+}
+
+@media (max-width: 610px) {
+
+    #languages {
+        margin-right: 5%;
+        font-size: small;
+    }
+
+    #languages h5 {
+        letter-spacing: 1px;
     }
 }
 
@@ -501,9 +525,9 @@ footer {
         font-size: smaller;
     }
 
-    #languages {
+    /* #languages {
         margin-right: auto;
-    }
+    } */
 
     footer {
         height: auto;

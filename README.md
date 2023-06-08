@@ -41,7 +41,7 @@ Images were obatained from my personal archive and [Pexels](https://www.pexels.c
 
 ### index.html -landing page-
 
-I chose to use a tiling system in the index to be similar to a mobile app, with an icon, title, catch phrase, and a brief description.
+I chose to use a tiling system in the index to be similar to a mobile app, with an icon, title, catch phrase, and a brief description. And, that's the main reason behind the des¡cision to use a back to menu button, instead of a list of links.
 
 The footer is composed as well of icons of my normally used social networks the could help the user knowing more about my work.
 
