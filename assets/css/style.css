@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;1,100&display=swap'); */
 
 * {
@@ -118,6 +118,7 @@ main {
 .tile-anchor {
     display: flex;
     border-radius: 12px;
+    padding-bottom: 2%;
 }
 
 .hobby-icon {
@@ -133,6 +134,10 @@ main {
     grid-column-end: 5;
     align-self: center;
     margin-right: 30px;
+}
+
+.about {
+    font-weight: 200;
 }
 
 .description {
@@ -348,9 +353,8 @@ footer {
 /* photography */
 
 .pics {
-    max-width: 20%;
-    max-height: 25%;
-
+    max-width: 300px;
+    min-width: 200px
 }
 
 .pics-container {
@@ -361,8 +365,9 @@ footer {
     height: auto;
     align-items: center;
     gap: 1%;
+    row-gap: 15px;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 @media (max-width: 1400px) {
