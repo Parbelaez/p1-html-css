@@ -330,6 +330,11 @@ footer {
     font-style: italic;
 }
 
+#albums-paragraphs>figcaption {
+    font-size: small;
+    font-style: italic;
+}
+
 #spotify-loader>iframe {
     width: 100%;
     justify-content: center;
