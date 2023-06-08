@@ -116,3 +116,23 @@ To clone the p1-html-css repository:
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 - - -
+
+
+## Bug report and errors
+
+### Known bugs
+
+None so far
+
+### Fixed bugs
+
+- Images not loading due to wrong path.
+- a attributes given mistakenly to the img contained in it.
+- Resizing issues due to min-max height threshold not defined.
+
+### Errors
+
+* The w3c html validation is considered as OK, as the errors are coming directly from the iframes given by the YouTube and Spotify codes.
+
+YouTube: *"Error: The frameborder attribute on the iframe element is obsolete. Use CSS instead."*
+Spotify: *"Error: Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead.*
