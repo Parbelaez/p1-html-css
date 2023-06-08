@@ -1,11 +1,9 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
 Welcome to my portfolio,
 
 It is difficult for me to correctly show all my capabilities in a single CV, therefore, I decided to create a portfolio with all my working experience and hobbies with which I can make a living, or could be useful for the visitirs of the webpage interests.
 
 
-![The portfolio shown on a range of devices](assets/images/bullybookclubwebsite.png)
+![The portfolio shown on a range of devices](assets/images/devices_render.png)
 
 [View My Portfolio on Github Pages](https://parbelaez.github.io/p1-html-css/)
 
