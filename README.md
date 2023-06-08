@@ -130,10 +130,23 @@ None so far
 - a attributes given mistakenly to the img contained in it.
 - Resizing issues due to min-max height threshold not defined.
 
-### Errors
+### HTML Errors
 
 * The w3c html validation is considered as OK, as the errors are coming directly from the iframes given by the YouTube and Spotify codes.
 
 YouTube: *"Error: The frameborder attribute on the iframe element is obsolete. Use CSS instead."*
 
 Spotify: *"Error: Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead.*
+
+### CSS Errors
+
+- The w3c html validation is considered as OK, as the errors are coming directly from the fonts and icons imports from Google fonts and Fontawesome directly.
+
+---
+
+
+## Credits
+
+[Engineering image](https://www.pexels.com/de-de/foto/person-die-das-gerat-verwendet-132700/)
+
+[Musician Image](https://www.linkedin.com/in/julian-gaviria-29584272/?originalSubdomain=co) image directly given to me by Julián Gaviria for personal use.
