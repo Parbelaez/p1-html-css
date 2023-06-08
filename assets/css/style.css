@@ -339,7 +339,7 @@ footer {
     font-style: italic;
 }
 
-#albums-paragraphs>figcaption {
+#albums-paragraphs>#credits {
     font-size: small;
     font-style: italic;
 }
