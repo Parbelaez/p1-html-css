@@ -135,4 +135,5 @@ None so far
 * The w3c html validation is considered as OK, as the errors are coming directly from the iframes given by the YouTube and Spotify codes.
 
 YouTube: *"Error: The frameborder attribute on the iframe element is obsolete. Use CSS instead."*
+
 Spotify: *"Error: Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead.*
