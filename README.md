@@ -150,3 +150,9 @@ Spotify: *"Error: Bad value 100% for attribute width on element iframe: Expected
 [Engineering image](https://www.pexels.com/de-de/foto/person-die-das-gerat-verwendet-132700/)
 
 [Musician Image](https://www.linkedin.com/in/julian-gaviria-29584272/?originalSubdomain=co) image directly given to me by Julián Gaviria for personal use.
+
+---
+
+## Testing
+
+All links (internal and external) where tested, as well as the interaction with the languages.
