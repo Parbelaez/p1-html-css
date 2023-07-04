@@ -1,6 +1,6 @@
 Welcome to my portfolio,
 
-It is difficult for me to correctly show all my capabilities in a single CV, therefore, I decided to create a portfolio with all my working experience and hobbies with which I can make a living, or could be useful for the visitirs of the webpage interests.
+It is difficult for me to correctly show all my capabilities in a single CV, therefore, I decided to create a portfolio with all my working experience and hobbies with which I can make a living, or could be useful for the visitors of the webpage interests.
 
 
 ![The portfolio shown on a range of devices](assets/images/devices_render.png)
@@ -17,13 +17,12 @@ It is difficult for me to correctly show all my capabilities in a single CV, the
 
 As the portfolio is really eclectic, it should be as clear and simple as possible.
 
-The logo was inspired by an AI generated one, from [LOOKA](https://looka.com/), but created totally manual using Google fonts and [Fontawesome](https://fontawesome.com/) icons
+The logo was inspired by an AI-generated one, from [LOOKA](https://looka.com/), but created manually using Google fonts and [Fontawesome](https://fontawesome.com/) icons
 
-The color scheme is based on differnt shades of grey, with the exception of the tiles, that were thought as pastel, so their inherent opacity match the seriousness of the header and the footer.
+The color scheme is based on different shades of grey, except for the tiles, which were thought as pastel, so their inherent opacity matches the seriousness of the header and the footer.
 
 ### Fonts
-
-Google fonts was the source of the typography:
+Google Fonts was the source of the typography:
 
 [Poppins](https://github.com/itfoundry/poppins): is a geometric sans serif typeface developed by Indian Type Foundry and Jonny Pinhorn.
 
@@ -31,7 +30,7 @@ Google fonts was the source of the typography:
 
 Icons were used directly from [Fontawesome](https://fontawesome.com/).
 
-Images were obatained from my personal archive and [Pexels](https://www.pexels.com/)
+Images were obtained from my archive and [Pexels](https://www.pexels.com/)
 
 ---
 
@@ -39,9 +38,9 @@ Images were obatained from my personal archive and [Pexels](https://www.pexels.c
 
 ### index.html -landing page-
 
-I chose to use a tiling system in the index to be similar to a mobile app, with an icon, title, catch phrase, and a brief description. And, that's the main reason behind the des¡cision to use a back to menu button, instead of a list of links.
+I chose to use a tiling system in the index to be similar to a mobile app, with an icon, title, catchphrase, and a brief description. And, that's the main reason behind the decision to use a back-to-menu button, instead of a list of links.
 
-The footer is composed as well of icons of my normally used social networks the could help the user knowing more about my work.
+The footer is composed as well of icons of my normally used social networks that could help the user know more about my work.
 
 ### Engineering
 
@@ -53,11 +52,11 @@ This one was used to practice the usage of the background image, and the hover d
 
 #### Used Technologies
 
-All the previous, plus some snippet from [Codepen](https://codepen.io/wall-e/pen/zvvgBe).
+All the previous, plus some snippets from [Codepen](https://codepen.io/wall-e/pen/zvvgBe)](https://codepen.io/wall-e/pen/zvvgBe).
 
 ### Writing
 
-This is an only text webpage. It is not meant to have more information than that until the book is published or the scripts are ready.
+This is an only-text webpage. It is not meant to have more information than that until the book is published or the scripts are ready.
 
 ### Film
 
@@ -65,12 +64,12 @@ For this page, YouTube iframes were used, so the visitor can check part of my mu
 
 ### Music
 
-For this page, Spotify iframes were used, along with a copyrighted photo with its correspondent mention.
+For this page, Spotify iframes were used, along with a copyrighted photo with its corresponding mention.
 Some audio clips can be inserted in the future, as the work on the album progresses.
 
 ### Photography
 
-A set of personal photos. Some of them are not part of my Instagram acount.
+A set of personal photos. Some of them are not part of my Instagram account.
 Flexbox was used to create the matrix.
 
 
@@ -118,7 +117,7 @@ To clone the p1-html-css repository:
 - - -
 
 
-## Bug report and errors
+## Bug reports and errors
 
 ### Known bugs
 
@@ -126,9 +125,9 @@ None so far
 
 ### Fixed bugs
 
-- Images not loading due to wrong path.
-- a attributes given mistakenly to the img contained in it.
-- Resizing issues due to min-max height threshold not defined.
+- Images not loading due to the wrong path.
+- "a" attribute is given mistakenly to the image contained in it.
+- Resizing issues due to the min-max height threshold not being defined.
 
 ### HTML Errors
 
@@ -140,7 +139,7 @@ Spotify: *"Error: Bad value 100% for attribute width on element iframe: Expected
 
 ### CSS Errors
 
-- The w3c html validation is considered as OK, as the errors are coming directly from the fonts and icons imports from Google fonts and Fontawesome directly.
+- The w3c html validation is considered as OK, as the errors are coming directly from the fonts and icons imports from Google Fonts and Fontawesome.
 
 ---
 
@@ -149,10 +148,10 @@ Spotify: *"Error: Bad value 100% for attribute width on element iframe: Expected
 
 [Engineering image](https://www.pexels.com/de-de/foto/person-die-das-gerat-verwendet-132700/)
 
-[Musician Image](https://www.linkedin.com/in/julian-gaviria-29584272/?originalSubdomain=co) image directly given to me by Julián Gaviria for personal use.
+[Musician [Image](https://www.linkedin.com/in/julian-gaviria-29584272/?originalSubdomain=co) image was directly given to me by Julián Gaviria for personal use.
 
 ---
 
 ## Testing
 
-All links (internal and external) where tested, as well as the interaction with the languages.
+All links (internal and external) were tested, as well as the interaction with the languages.
