@@ -81,6 +81,36 @@ h5 {
     margin-top: 10%;
 }
 
+/* Hamburguer Menu */
+
+#hamburger-button {
+    position: relative;
+}
+
+#hamburger-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#hamburger-checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#hamburger-checkbox input {
+    height: 250px;
+    width: 250px;
+    appearance: none;
+}
+
+#hamburger-checkbox input:checked{
+    background-color: red;
+}
+
 /* main */
 
 main {
